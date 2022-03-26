@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 
 // get routers
-const peopleRouter = require('./routes/people')
-const loginRouter = require('./routes/auth')
+const peopleRouter = require('./routes/router-people')
+const loginRouter = require('./routes/router-auth')
 
 app.use(express.static('./methods-public'))
 // parse form data
