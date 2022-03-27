@@ -30,6 +30,7 @@ router.delete('/:id', deletePerson)
     .get(getFunction)
     .post(postFunction)
     .put(putFunction)
+    .patch(patchFunction)
     .delete(deleteFunction)
     .head(headFunction)
     ...etc
